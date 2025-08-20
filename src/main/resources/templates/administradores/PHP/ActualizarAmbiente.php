@@ -49,3 +49,4 @@ if (mysqli_num_rows($resultado) > 0) {
         // Enviar la respuesta como JSON al cliente
         echo json_encode($response);
         }
+//
